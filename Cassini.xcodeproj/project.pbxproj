@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05294F8E1D60DA3000F8797F /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05294F8D1D60DA3000F8797F /* CassiniViewController.swift */; };
+		05294F921D60DF8600F8797F /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05294F911D60DF8600F8797F /* DemoURL.swift */; };
 		05EE75201D5FAAEE006CF0DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE751F1D5FAAEE006CF0DE /* AppDelegate.swift */; };
-		05EE75221D5FAAEE006CF0DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE75211D5FAAEE006CF0DE /* ViewController.swift */; };
 		05EE75251D5FAAEE006CF0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EE75231D5FAAEE006CF0DE /* Main.storyboard */; };
 		05EE75271D5FAAEE006CF0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05EE75261D5FAAEE006CF0DE /* Assets.xcassets */; };
 		05EE752A1D5FAAEE006CF0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05EE75281D5FAAEE006CF0DE /* LaunchScreen.storyboard */; };
+		05EE75331D5FAB3A006CF0DE /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE75321D5FAB3A006CF0DE /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05294F8D1D60DA3000F8797F /* CassiniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
+		05294F911D60DF8600F8797F /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 		05EE751C1D5FAAEE006CF0DE /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EE751F1D5FAAEE006CF0DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05EE75211D5FAAEE006CF0DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05EE75241D5FAAEE006CF0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05EE75261D5FAAEE006CF0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05EE75291D5FAAEE006CF0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05EE752B1D5FAAEE006CF0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05EE75321D5FAB3A006CF0DE /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		05EE751E1D5FAAEE006CF0DE /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				05EE751F1D5FAAEE006CF0DE /* AppDelegate.swift */,
-				05EE75211D5FAAEE006CF0DE /* ViewController.swift */,
-				05EE75231D5FAAEE006CF0DE /* Main.storyboard */,
-				05EE75261D5FAAEE006CF0DE /* Assets.xcassets */,
-				05EE75281D5FAAEE006CF0DE /* LaunchScreen.storyboard */,
+				05294F911D60DF8600F8797F /* DemoURL.swift */,
+				05EE75311D5FAAF9006CF0DE /* Supporting Files */,
 				05EE752B1D5FAAEE006CF0DE /* Info.plist */,
+				05EE75231D5FAAEE006CF0DE /* Main.storyboard */,
+				05294F8D1D60DA3000F8797F /* CassiniViewController.swift */,
+				05EE75321D5FAB3A006CF0DE /* ImageViewController.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		05EE75311D5FAAF9006CF0DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05EE751F1D5FAAEE006CF0DE /* AppDelegate.swift */,
+				05EE75261D5FAAEE006CF0DE /* Assets.xcassets */,
+				05EE75281D5FAAEE006CF0DE /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +110,7 @@
 				TargetAttributes = {
 					05EE751B1D5FAAEE006CF0DE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 39QAE8SJ6Q;
 					};
 				};
 			};
@@ -135,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05EE75221D5FAAEE006CF0DE /* ViewController.swift in Sources */,
+				05294F921D60DF8600F8797F /* DemoURL.swift in Sources */,
+				05EE75331D5FAB3A006CF0DE /* ImageViewController.swift in Sources */,
 				05EE75201D5FAAEE006CF0DE /* AppDelegate.swift in Sources */,
+				05294F8E1D60DA3000F8797F /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +268,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cassini/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.alana.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cassini/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.alana.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +311,7 @@
 				05EE75301D5FAAEE006CF0DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
